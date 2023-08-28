@@ -1,0 +1,64 @@
+#clock{
+    width:300px;
+    height:300px;
+    margin:auto;
+    background-color: black;
+    border-radius: 50%;
+}
+#hour,#minute,#second{
+    margin:auto;
+    transform-origin: bottom center;
+}
+#hour{
+    width:10px;
+    height:50px;
+    background-color:orange;
+    position:relative;
+    top:100px;
+}
+#minute{
+    width:5px;
+    height:100px;
+    background-color: red;
+    
+}
+#second{
+    width:2px;
+    height:140px;
+    background-color: blue;
+    position:relative;
+    bottom:140px;
+}
+#dot{
+    width:20px;
+    height:20px;
+    background-color:rgba(255,0,0,0.8);
+    border-radius:50%;
+    position:relative;
+    bottom:150px;
+    left:140px;
+}
+#num{
+    font-style:italic;
+    font-size:50px;;
+    color:red;
+}
+#twel{
+    position:relative;
+    bottom:310px;
+    left:110px;
+}
+#three{
+    position:relative;
+    bottom:250px;
+    left:260px;
+}
+#six{
+    position:relative;
+    bottom:250px;
+    left:130px;
+}
+#nine{
+    position:relative;
+    bottom:310px;
+}
